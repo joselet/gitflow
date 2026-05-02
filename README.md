@@ -19,4 +19,7 @@ git pull
 git merge --squash develop
 git commit -m "versión 1"
 git push
+#y ahora volver a develop para continuar trabajando
+git checkout develop
+git merge main
 ```
