@@ -23,3 +23,15 @@ git push
 git checkout develop
 git merge main
 ```
+# Casos especiales
+## En caso de necesitar un hotfix en producción:
+```
+git checkout main
+# arreglar el bug
+git commit
+git push
+# volver a la rama develop y traerte a develop el cambio que has hecho en main
+git checkout develop
+git merge main
+```
+
